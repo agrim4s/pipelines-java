@@ -29,5 +29,5 @@ steps:
     javaHomeOption: 'JDKVersion'
 
 - script: echo $(PR_NAME)
-- task: "Echo DB name which is a custor variable for the virtenv"
+#- task: "Echo DB name which is a custor variable for the virtenv"
 - script: echo $(DB)
