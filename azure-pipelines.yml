@@ -30,4 +30,4 @@ steps:
 
 - script: echo $(PR_NAME)
 - task: "Echo DB name which is a custor variable for the virtenv"
-  script: echo $(DB)
+- script: echo $(DB)
