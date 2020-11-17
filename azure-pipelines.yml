@@ -5,6 +5,7 @@
 
 trigger:
 - master
+- dependabot/*
 
 pool:
   vmImage: 'ubuntu-latest'
